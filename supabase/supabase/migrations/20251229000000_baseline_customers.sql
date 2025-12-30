@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS public.customers (
   phone text,
   company text,
   linkedin_url text,
+  designation text,
   created_at timestamp with time zone NOT NULL DEFAULT now()
 );
 
